@@ -1,9 +1,9 @@
-const { browser, $, $$ } = require("@wdio/globals");
+//const { browser, $, $$ } = require("@wdio/globals");
 
 describe("Autosuggestion handling", () => {
   it("Autosuggestion- select Value", async () => {
     
-    browser.url("https://www.google.com/");
+    await browser.url("https://www.google.com/");
     //await(await $("//button[text()='Stay signed out']")).click()
     const input = await $("#APjFqb");
     await input.click();
