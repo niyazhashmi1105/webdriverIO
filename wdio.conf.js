@@ -128,7 +128,8 @@ export const config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
+    reporters: ['spec',['allure', {outputDir: 'allure-results'}, {disableWebdriverStepsReporting: false},
+    {disableWebdriverScreenshotsReporting: false}]],
 
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -220,7 +221,7 @@ export const config = {
      * afterEach in Mocha)
      */
     // afterHook: function (test, context, { error, result, duration, passed, retries }, hookName) {
-    // },
+      //  },
     /**
      * Function to be executed after a test (in Mocha/Jasmine only)
      * @param {object}  test             test object

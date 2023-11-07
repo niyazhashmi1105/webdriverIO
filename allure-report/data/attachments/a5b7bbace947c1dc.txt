@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='orangehrm-login-footer-sm']/a"
+}

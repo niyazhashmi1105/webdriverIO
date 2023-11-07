@@ -1,4 +1,4 @@
-const {browser,$,$$} = require('@wdio/globals')
+//const {browser,$,$$} = require('@wdio/globals')
 
 
 describe('Dropdown handling', ()=>{

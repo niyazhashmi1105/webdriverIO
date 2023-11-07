@@ -1,5 +1,5 @@
 
-describe('First Test Suite', async()=>{
+describe('First Test Suite', ()=>{
 
 it('First TC', async()=>{
     
